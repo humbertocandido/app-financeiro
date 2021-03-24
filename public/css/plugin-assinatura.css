@@ -1,0 +1,99 @@
+@media only screen and (orientation:landscape) {
+    #aviso {
+        display: none;
+    }
+}
+
+@media only screen and (orientation:portrait) {
+    #aviso {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        color: #FFF;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.8;
+    }
+}
+
+#barra-botoes-assinatura {
+    position: absolute;
+    top: 1px;
+}
+
+#assinatura,
+#selfie {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#camera {
+    width: 100vw;
+    height: 100vw;
+    background-color: #FCFCFC;
+}
+
+#barra-botoes {
+    width: 100vw;
+    position: absolute;
+    top: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    opacity: 0.5;
+}
+
+.btn-alterar-camera {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    opacity: 0.5;
+}
+
+.btn-apagar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    opacity: 0.5;
+}
+
+.btn-fechar {
+    position: absolute;
+    top: 10px;
+    left: 93vw;
+}
+
+video {
+    width: 100vw;
+    height: 100vh;
+}
+
+.perfil {
+    width: 24vw;
+    height: 180px;
+}
+
+#salvando {
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.78;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

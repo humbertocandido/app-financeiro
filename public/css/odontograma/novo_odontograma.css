@@ -1,0 +1,15 @@
+.excluido {
+    opacity: 0.1;
+}
+
+.ativo.excluido {
+    opacity: 0.5 !important;
+}
+
+.excluido.ativo {
+    opacity: 0.5 !important;
+}
+
+.ativo {
+    opacity: 1;
+}

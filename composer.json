@@ -1,0 +1,11 @@
+{
+    "require": {
+        "dompdf/dompdf": "^0.8.6",
+        "mailjet/mailjet-apiv3-php": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ODC\\" : "main"
+        }
+    }
+}
